@@ -1,0 +1,39 @@
+.suggest{
+  position:relative;
+}
+.suggest__input{
+  border:1px solid #888;
+  border-radius: 4px;
+  padding:8px;
+  display:block;
+  width:100%;
+  box-sizing: border-box;
+  font-size:1rem;
+  outline: none;
+}
+.suggest__list-wrap{
+  z-index:2;
+  width:100%;
+  position:absolute;
+  top:100%;
+  left:0;
+  max-height:180px;
+  border-bottom: 1px solid #888;
+  overflow: scroll;
+  box-shadow: 0px 1px 3px #ccc;
+}
+.suggest__list{
+  padding:0;
+  margin:0;
+}
+.suggest__list-item{
+  list-style: none;
+  padding:4px 8px;
+  border-color: #888;
+  border-style: solid;
+  border-width: 1px 1px 0px;
+  background-color:#FFF;
+  &.is-focus{
+    background-color:#FFC;
+  }
+}
