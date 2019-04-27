@@ -4,7 +4,7 @@ import './index.css';
 import Suggest from './Suggest.tsx';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Suggest url="/suggest_list.json"/>, document.getElementById('root'));
+ReactDOM.render(<Suggest url="./suggest_list.json"/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
