@@ -33,21 +33,9 @@
       <section class="description">
         <h2 class="description__title">概要</h2>
         <ul>
-          <li>都道府県名をひらがな、ローマ字表記からサジェストします。</li>
-          <li>サジェストリストは、マウススクロール、クリックで操作可能です。</li>
-          <li>さらに、上下キー、エンターキーで操作可能です。</li>
-        </ul>
-        <h2 class="description__title">目的</h2>
-        <p>下記2点を学べる課題として、サジェストを作成。</p>
-        <ul>
-          <li>reactの基礎を学ぶために、親の入力内容に応じて子コンポーネントが動的にかわるコンポーネント。</li>
-          <li>親コンポーネントだけでなく、子コンポーネントもユーザーの操作対象になるコンポーネント。</li>
-        </ul>
-        <h2 class="description__title">はまったポイント</h2>
-        <ul>
-          <li>上下キーでサジェストリストのフォーカスを操作する際、this.state.focusの更新直後のスクロール量算出がうまくいかず試行錯誤。componentDidUpdateで解決。</li>
-          <li>途中まで、ReactDOM.findDOMNode()で実装してしまう。refに移行しようとしたものの、うまく機能せず試行錯誤。公式ドキュメントの「Refs and the DOM」を読んで解決。</li>
-          <li>typescriptでclickのeventの型がわからないまま</li>
+          <li>都道府県名をひらがな、ローマ字表記からサジェストするコンポーネント。</li>
+          <li>候補選びは、マウススクロール、クリックで操作可能。</li>
+          <li>キーボードの上下キー、エンターキーでも操作可能。</li>
         </ul>
       </section>
     </main>
